@@ -1,61 +1,23 @@
 @media(max-width:1440px){
-    header nav ul li.logo img {
-        max-width: 284px;
-    }
-    .our-story,
-    .unique-process,
-    .tequilla,
-    .cocktail-wrapper,
-    .event-section,
-    .social-wrapper {
-        padding: 120px 0;
-    }
-    .text-wrapper span {
-        font-size: 44px;
-    }
-    h2,
-    .cocktail-wrapper .text-wrapper h2 {
-        font-size: 73px;
-    }
-    .unique-process .section-wrapper .right img {
-        max-width: 498px;
-    }
-    .unique-process .section-wrapper .img-blk img.badge-img {
-        top: -40px;
-        left: 50px;
-        max-width: 132px;
-    }
-    .unique-process .section-wrapper {
-        justify-content: space-between;
-        gap: initial;
-    }
-    .unique-process .section-wrapper .img-blk {
-        text-align: right;
-    }
-    .taquila-inner .left-col {
-        padding-right: 90px;
-    }
-    .taquila-inner:nth-child(even) .left-col{padding-left: 90px;}
-    .taquila-inner .left-title h2 {
-        font-size: 38px;
-    }
-    .cocktail-wrapper p {
-        font-size: 22px;
-     
-    }
+    header nav ul li.logo img{max-width:284px}
+    .our-story .section-wrapper .right{flex:0 0 calc(100% - 679px);max-width:calc(100% - 679px)}
+    .our-story,.unique-process,.tequilla,.cocktail-wrapper,.event-section,.social-wrapper{padding:120px 0}
+    .text-wrapper span{font-size:44px}
+    h2,.cocktail-wrapper .text-wrapper h2{font-size:73px}
+    .unique-process .section-wrapper .right img{max-width:498px}
+    .unique-process .section-wrapper .img-blk img.badge-img{top:-40px;left:50px;max-width:132px}
+    .unique-process .section-wrapper{justify-content:space-between;gap:initial}
+    .unique-process .section-wrapper .img-blk{text-align:right}
+    .taquila-inner .left-col{padding-right:90px}
+    .taquila-inner:nth-child(even) .left-col{padding-left:90px}
+    .taquila-inner .left-title h2{font-size:38px}
+    .cocktail-wrapper p{font-size:22px}
     /* .cocktail-slide {
         width: 377px !important;
         height: 438px;
     } */
-    .event-item span {
-        font-size: 26px;
-    }
-    .event-item span {
-        font-size: 26px;
-    }
-    header nav ul li:not(.logo) {
-        margin-top: 0;
-    }
+    .event-item span{font-size:26px;font-size:26px}
+    header nav ul li:not(.logo){margin-top:0}
 }
 @media(max-width:1199px){
     header{position: relative;padding: 20px 0;}
