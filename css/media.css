@@ -1,0 +1,169 @@
+@media(max-width:1440px){
+    header nav ul li.logo img {
+        max-width: 284px;
+    }
+    .our-story,
+    .unique-process,
+    .tequilla,
+    .cocktail-wrapper,
+    .event-section,
+    .social-wrapper {
+        padding: 120px 0;
+    }
+    .text-wrapper span {
+        font-size: 44px;
+    }
+    h2,
+    .cocktail-wrapper .text-wrapper h2 {
+        font-size: 73px;
+    }
+    .unique-process .section-wrapper .right img {
+        max-width: 498px;
+    }
+    .unique-process .section-wrapper .img-blk img.badge-img {
+        top: -40px;
+        left: 50px;
+        max-width: 132px;
+    }
+    .unique-process .section-wrapper {
+        justify-content: space-between;
+        gap: initial;
+    }
+    .unique-process .section-wrapper .img-blk {
+        text-align: right;
+    }
+    .taquila-inner .left-col {
+        padding-right: 90px;
+    }
+    .taquila-inner:nth-child(even) .left-col{padding-left: 90px;}
+    .taquila-inner .left-title h2 {
+        font-size: 38px;
+    }
+    .cocktail-wrapper p {
+        font-size: 22px;
+     
+    }
+    .cocktail-slide {
+        width: 377px !important;
+        height: 438px;
+    }
+    .event-item span {
+        font-size: 26px;
+    }
+    .event-item span {
+        font-size: 26px;
+    }
+    header nav ul li:not(.logo) {
+        margin-top: 0;
+    }
+}
+@media(max-width:1199px){
+    header{position: relative;padding: 20px 0;}
+    header nav ul li.logo img {max-width: 224px;}
+    header nav ul.link-text{position: absolute;right: 0;top: 93px;background-color: #000;padding: 20px;text-align: center;z-index: 999;width: 100%;max-width: 100%;display: block;}
+    header nav ul.link-text li{border-right: 0;padding-bottom: 20px;padding-left: 0;padding-right: 0;}
+    header nav ul li:not(.logo){margin-top: 0;}
+    header nav ul.nav-menu {width: 100%;}
+    header nav ul li.logo{padding-right: 0;}
+    header nav ul li.btn-blk{padding-right: 0;}
+    .btn {font-size: 20px;padding: 16px 27px;}
+    header nav ul.nav-menu .menu-img a img{max-width: 30px;}
+    header nav ul.nav-menu .menu-img a{padding: 0 15px;}
+    header nav ul.nav-menu .menu-img a:last-child{padding-right: 0;}
+}
+@media(max-width:1024px){
+    
+    .banner .banner-slider .slick-center .img-blk img {height: 580px;max-width: 158px;}
+    .banner .banner-slider .img-blk img {max-width: 128px;}
+    .banner .title p {font-size: 50px;}
+    .our-story, .unique-process, .tequilla, .cocktail-wrapper, .event-section, .social-wrapper {padding: 90px 0;}
+    .our-story .section-wrapper .left {flex: 0 0 339px;max-width: 339px;}
+    .our-story .section-wrapper .right {flex: 0 0 50%;max-width: 50%;}
+    .text-wrapper span,
+    .tequilla .text-wrapper span,
+    .event-section .text-wrapper span {font-size: 34px;}
+    h2, .cocktail-wrapper .text-wrapper h2,.tequilla .text-wrapper h2 {font-size: 53px;}
+    .our-story .section-wrapper h2 {margin-bottom: 30px;}
+    .unique-process .section-wrapper .right img {max-width: 368px;}
+    .unique-process .section-wrapper .img-blk img.badge-img {top: -30px;left: 70px;max-width: 92px;}
+    .taquila-inner .left-title h2 {font-size: 32px;}
+    .taquila-inner .left-col .img-btl {height: 345px;margin-bottom: 30px;}
+    .taquila-inner .left-col {padding-right: 130px;}
+    .taquila-inner:nth-child(even) .left-col {padding-left: 130px;}
+    .cocktail-slide h3 {font-size: 32px;}
+    .event-section .left-col p,
+    .social-wrapper p {font-size: 18px;}
+    .event-item p,
+    .event-item span {font-size: 20px;}
+    .social-wrapper p {padding: 20px 0 30px;}
+    .banner .banner-slider .slick-prev,
+    .banner .banner-slider .slick-next {width: 38px;height: 38px;background-size: 38px;}
+    .event-section .left-col p {padding-bottom: 30px;}
+    .event-item > div {min-height: 119px;}
+}
+@media(max-width:991px){
+    .banner {padding: 47px 0;}
+    .banner .banner-slider .slick-center .img-blk img {height: 430px;max-width: 128px;}
+    .banner .banner-slider .img-blk img {max-width: 88px;transition: none;}
+    .banner .title p {font-size: 40px;}
+    .our-story .section-wrapper {gap: 30px;}
+    .our-story, .unique-process, .tequilla, .cocktail-wrapper, .event-section, .social-wrapper {padding: 60px 0;}
+    h2, .cocktail-wrapper .text-wrapper h2, .tequilla .text-wrapper h2 {font-size: 43px;}
+    .text-wrapper span, .tequilla .text-wrapper span, .event-section .text-wrapper span {font-size: 26px;}
+    .taquila-inner .left-col .img-btl {height: 235px;margin-bottom: 0;}
+    .taquila-inner .left-col {padding-right: 40px;}
+    .taquila-inner .right-col {padding-left: 50px;}
+    .taquila-inner .left-title img {right: -115px;}
+    .tequilla .text-wrapper {top: 0px;}
+    .taquila-inner:nth-child(even) .right-col{padding-left: 0;}
+    .taquila-inner:nth-child(even) .left-title img {left: -115px;}
+    .taquila-inner:not(:last-child){margin-bottom: 30px;}
+    .footer-wrapper {flex-wrap: wrap;margin: 0;}
+    .footer-wrapper .footer-item:nth-child(1){order: 3;flex: 0 0 100%;max-width: 100%;}
+    .footer-wrapper .footer-item:nth-child(2){order: 2;}
+    .footer-wrapper .footer-item:nth-child(3){order: 1;margin-bottom: 30px;}
+    .footer-wrapper .footer-item p {max-width: 100%;}
+    .footer-item .social-items {justify-content: center;}
+    .footer-wrapper .footer-item {padding: 0;}
+}
+@media(max-width:767px){
+    .banner {padding: 30px 0 50px;}
+    .our-story, .unique-process, .tequilla, .cocktail-wrapper, .event-section, .social-wrapper {padding: 30px 0;}
+    .text-wrapper span, .tequilla .text-wrapper span, .event-section .text-wrapper span {font-size: 26px;text-align: center;}
+    .banner .banner-slider .img-blk:after {left: 50%;transform: translateX(-50%);}
+    .banner .banner-slider .img-blk {padding-bottom: 40px;padding-top: 0;}
+    .our-story .section-wrapper,
+    .unique-process .section-wrapper,
+    .taquila-inner ,
+    .event-wrapper,
+    .social-wrapper{gap: 30px;flex-wrap: wrap;}
+    .our-story .section-wrapper .left,
+    .our-story .section-wrapper .right,
+    .unique-process .section-wrapper .left,
+    .unique-process .section-wrapper .right,
+    .taquila-inner .left-col,
+    .taquila-inner .right-col,
+    .event-section .left-col, 
+    .event-section .right-col,
+    .social-wrapper .left-col, 
+    .social-wrapper .right-col{flex: 0 0 100%;max-width: 100%;}
+    .unique-process .section-wrapper .right img {max-width: 100%;}
+    .unique-process .section-wrapper .img-blk img.badge-img {left: -20px;}
+    .taquila-inner .right-col {padding: 0;}
+    .taquila-inner .right-col .btn-blk{text-align: right;}
+    .tequilla .text-wrapper {position: static;text-align: center;}
+    .social-section {background-size: cover;}
+    header nav ul li.logo img {max-width: 154px;}
+    header nav ul li.menu-img{display: flex;align-items: center;}
+    header nav ul.link-text{top: 73px;width: 100%;}
+    .taquila-inner:nth-child(even) .left-col {padding-left: 40px;}
+    .event-inner-item .info-col, .event-inner-item .img-col {padding: 22px 15px;}
+    .event-inner-item .info-col .info-inner {height: 460px;}
+    .event-inner-item p, .event-inner-item b, .event-inner-item a, .event-inner-item span {font-size: 14px;}
+    .tequilla{position: relative;}
+    .our-story .section-wrapper .left img {width: 100%;}
+    .taquila-inner .right-col p {max-width: 100%;text-align: right;}
+    .taquila-inner:nth-child(even) .right-col p{text-align: left;}
+    .taquila-inner:nth-child(even) .right-col .btn-blk{text-align: left;}
+    .cocktail-wrapper p {font-size: 18px;}
+}
