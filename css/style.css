@@ -168,7 +168,9 @@ header nav ul li.btn-blk{padding-right: 44px;}
 .cocktail-wrapper .slick-list{overflow: visible;}
 .cocktail-wrapper .slick-slide{padding: 0 25px;}
 .cocktail-slide h3{font-size: 42px;letter-spacing: 4px;color: #fefefe;font-family: "AgencyFB";display: block;text-align: center;width: 100%;align-self: flex-end;}
-.cocktail-slide{width: 417px !important;height: 458px;background-image: linear-gradient(180deg, #494949 0%, #494949 17%, #050505 100%);display: inline-flex !important;align-items: center;justify-content: center;flex-wrap: wrap;padding: 50px 20px;}
+/* .cocktail-slide{width: 417px !important;height: 458px;background-image: linear-gradient(180deg, #494949 0%, #494949 17%, #050505 100%);display: inline-flex !important;align-items: center;justify-content: center;flex-wrap: wrap;padding: 50px 20px;} */
+.cocktail-slide{background-image: linear-gradient(180deg, #494949 0%, #494949 17%, #050505 100%);display: inline-flex !important;align-items: center;justify-content: center;flex-wrap: wrap;padding: 50px 20px;}
+.cocktail-slide img{max-width: 173px;}
 /**Cocktails CSS**/
 
 
