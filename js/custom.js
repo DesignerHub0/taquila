@@ -61,14 +61,14 @@ $(function(){
             settings:{
               centerMode:false,
               slidesToShow:2,
+              variableWidth:false
             }
           }, 
           {
             breakpoint:768,
             settings:{
               centerMode:false,
-              slidesToShow:1,
-              variableWidth:false
+              slidesToShow:1
             }
           },  
         ]
@@ -98,6 +98,9 @@ if($(window).width() <= 1199){
   $("header .nav-menu .btn-blk").detach().appendTo(".link-text");
   $("header .nav-menu .cart-img a").detach().prependTo("header .nav-menu .menu-img");
 }   
+if($(window).width() <= 991){
+  $(".footer-item .social-items").detach().appendTo(".footer-wrapper");  
+} 
 if($(window).width() <= 767){
   $(".tequilla .text-wrapper").detach().prependTo(".tequilla .container");  
 }   
